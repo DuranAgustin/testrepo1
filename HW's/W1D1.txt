@@ -1,0 +1,44 @@
+<!Doctype html> declaration
+h1-5, headers.
+
+p - paragraphs,
+
+li - list items
+
+ul - unordered lists
+
+ol - ordered list
+
+id - gives it an identity
+
+href - hypertext referance
+
+img can hold an image from a src - alt
+
+src - source attribute
+alt - alternate display incase it doesn't display.
+
+figure - is a self containted content and allows associateation of an image with caption.
+
+figcaption - used to add a caption to an image
+
+form - creates a form attribute
+action -  where form data should be sent.
+
+input - allows for inputs of types
+type - allows different types
+name - assigns it a value to represent the data.
+placeholder - placeholder for inputs
+required input
+
+
+buttons - well adds buttons
+types - what the button is going to do.
+name - gives it a way to be referenced
+value - gives it a value.
+
+fieldset groups related inputs
+
+legend element acts as a caption
+
+label gives it a label

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Vacation Destination Wishlist
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class = "mainDisplay"> Vacation Destinations Wishlist</h1>
+    <p>Found exciting places to visit on your next vacation?</p>
+    <p>Use the form below to add them to your Wishlist</p>
+    <div class="container">
+        <div class="rows">
+            <form id = "mainForm">
+                <div class="forms">
+                <label for = "destination">Destination Name</label>
+                    <input type="text" required input id="destination" placeholder="Enter Destination" >
+                </div>
+                <div class="forms">
+                    <label for = "location">location</label>
+                    <input type="text" required input id="location" placeholder="Enter location" >
+                </div>               
+                <div class="forms">
+                    <label for = "photo">Photo</label>
+                    <input type="url"  id="Photo" placeholder="Enter image URL" >
+                </div>               
+                <div class="forms">
+                    <label for = "description">Description</label>
+                    <input type="text" id="description" placeholder="Enter description" >
+                </div>
+                <button type="submit">Add to List</button>
+            </form>
+            <div class="ouputs">
+                <h2>Destinations:</h2>
+                <div id="out"></div>
+            </div>
+        </div>
+    </div>
+    <script src="outputdis.js"></script>
+</body>
+
+</html>
+
+id - identity
